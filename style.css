@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    background:white;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+}
+
+h1,h2{
+    text-align:center;
+}
+
+.form{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.form input{
+    padding:10px;
+    flex:1;
+}
+
+button{
+    padding:10px 15px;
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:darkgreen;
+}
+
+#search{
+    width:100%;
+    padding:10px;
+    margin-bottom:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table,th,td{
+    border:1px solid black;
+}
+
+th,td{
+    padding:10px;
+    text-align:center;
+}
+
+.borrowed{
+    color:red;
+    font-weight:bold;
+}
+
+.available{
+    color:green;
+    font-weight:bold;
+}
+
+ul{
+    background:#eee;
+    padding:15px;
+}
